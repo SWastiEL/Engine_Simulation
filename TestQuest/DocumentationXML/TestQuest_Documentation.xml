@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestQuest</name>
+    </assembly>
+    <members>
+        <member name="F:TestQuest.Engine.i">
+            <summary>
+            момент инерции
+            </summary>
+        </member>
+        <member name="F:TestQuest.Engine.m">
+            <summary>
+            крутящий момент
+            </summary>
+        </member>
+        <member name="F:TestQuest.Engine.v">
+            <summary>
+            скорость вращения коленвала
+            </summary>
+        </member>
+        <member name="F:TestQuest.Engine.tMax">
+            <summary>
+            перегрев
+            </summary>
+        </member>
+        <member name="F:TestQuest.Engine.hm">
+            <summary>
+            коэффициент зависимости скорости нагрева от крутящего момента
+            </summary>
+        </member>
+        <member name="F:TestQuest.Engine.hv">
+            <summary>
+            коэффициент зависимости скорости нагрева от скорости вращения коленвала
+            </summary>
+        </member>
+        <member name="F:TestQuest.Engine.c">
+            <summary>
+            коэффициент зависимости скорости охлаждения от температуры двигателя и окружающей среды
+            </summary>
+        </member>
+        <member name="F:TestQuest.Engine.tEngine">
+            <summary>
+            температура двигателя
+            </summary>
+        </member>
+        <member name="F:TestQuest.Engine.tAmbient">
+            <summary>
+            температура окружающей среды
+            </summary>
+        </member>
+        <member name="P:TestQuest.Engine.TEngine">
+            <summary>
+            температура двигателя(свойство)
+            </summary>
+        </member>
+        <member name="P:TestQuest.Engine.TAmbient">
+            <summary>
+            температура окружающей среды(свойство)
+            </summary>
+        </member>
+        <member name="P:TestQuest.Engine.Tmax">
+            <summary>
+            перегрев(свойство)
+            </summary>
+        </member>
+        <member name="P:TestQuest.Engine.M">
+            <summary>
+            крутящий момент(свойство)
+            </summary>
+        </member>
+        <member name="P:TestQuest.Engine.V">
+            <summary>
+            скорость вращения коленвала(свойство)
+            </summary>
+        </member>
+        <member name="P:TestQuest.Engine.I">
+            <summary>
+            момент инерции(свойство)
+            </summary>
+        </member>
+        <member name="M:TestQuest.Engine.#ctor(System.Double)">
+            <summary>
+            Конструктор, с указанием температуры окружающей среды
+            </summary>
+            <param name="temperatureAmient"></param>
+        </member>
+        <member name="M:TestQuest.Engine.#ctor">
+            <summary>
+            Конструктор, температура окружающей среды равна 0
+            </summary>
+        </member>
+        <member name="M:TestQuest.Engine.Vh">
+            <summary>
+            Скорость нагрева двигателя
+            </summary>
+        </member>
+        <member name="M:TestQuest.Engine.Vc">
+            <summary>
+            Скорость охлаждения двигателя
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TestQuest.EngineTesting.Start(TestQuest.Engine)">
+            <summary>
+            Начало тестирования двигателя
+            </summary>
+            <param name="engine">тестируемый двигатель</param>
+            <returns></returns>
+        </member>
+        <member name="M:TestQuest.EngineTesting.MaxIndexM(TestQuest.Engine)">
+            <summary>
+            Возвращает индекс максимального числа в массиве крутящего момента двигателя
+            </summary>
+            <param name="engine">двигатель</param>
+            <returns></returns>
+        </member>
+        <member name="M:TestQuest.EngineTesting.DebugLog(System.Double,TestQuest.Engine)">
+            <summary>
+            Вывод в консоль текущего состояния данных
+            </summary>
+            <param name="time">время с начала теста</param>
+            <param name="engine">тестируемый двигатель</param>
+        </member>
+        <member name="M:TestQuest.Informing.ReadTAmbient">
+            <summary>
+            Ввод температуры окружения
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TestQuest.Informing.TimeWork(System.Double)">
+            <summary>
+            Вывод в консоль времени до перегрева
+            </summary>
+            <param name="time"></param>
+        </member>
+        <member name="M:TestQuest.Informing.LoadData(TestQuest.Engine)">
+            <summary>
+            Возвращает истину, если удалось загрузить исходные данных из файла
+            </summary>
+            <param name="engine">двигатель</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

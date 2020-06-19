@@ -5,3 +5,8 @@ C:\Users\SWastiEL\TestQuest\TestQuest\TestQuest\obj\Debug\TestQuest.csprojAssemb
 C:\Users\SWastiEL\TestQuest\TestQuest\TestQuest\obj\Debug\TestQuest.csproj.CoreCompileInputs.cache
 C:\Users\SWastiEL\TestQuest\TestQuest\TestQuest\obj\Debug\TestQuest.exe
 C:\Users\SWastiEL\TestQuest\TestQuest\TestQuest\obj\Debug\TestQuest.pdb
+C:\Users\SWastiEL\TestQuest\TestQuest\TestQuest\DocumentationXML\TestQuest.exe.config
+C:\Users\SWastiEL\TestQuest\TestQuest\TestQuest\DocumentationXML\TestQuest.exe
+C:\Users\SWastiEL\TestQuest\TestQuest\TestQuest\DocumentationXML\TestQuest.pdb
+C:\Users\SWastiEL\TestQuest\TestQuest\TestQuest\DocumentationXML\TestQuest_Documentation.xml
+C:\Users\SWastiEL\TestQuest\TestQuest\TestQuest\bin\Debug\TestQuest_Documentation.xml
