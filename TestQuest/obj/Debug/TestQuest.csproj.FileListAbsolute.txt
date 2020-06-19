@@ -1,0 +1,7 @@
+C:\Users\SWastiEL\TestQuest\TestQuest\TestQuest\bin\Debug\TestQuest.exe.config
+C:\Users\SWastiEL\TestQuest\TestQuest\TestQuest\bin\Debug\TestQuest.exe
+C:\Users\SWastiEL\TestQuest\TestQuest\TestQuest\bin\Debug\TestQuest.pdb
+C:\Users\SWastiEL\TestQuest\TestQuest\TestQuest\obj\Debug\TestQuest.csprojAssemblyReference.cache
+C:\Users\SWastiEL\TestQuest\TestQuest\TestQuest\obj\Debug\TestQuest.csproj.CoreCompileInputs.cache
+C:\Users\SWastiEL\TestQuest\TestQuest\TestQuest\obj\Debug\TestQuest.exe
+C:\Users\SWastiEL\TestQuest\TestQuest\TestQuest\obj\Debug\TestQuest.pdb
